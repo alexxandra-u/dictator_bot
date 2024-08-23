@@ -17,7 +17,7 @@ dictator command_name [args]
 Examples for the commands listed above:
 1) dictator make_admin @username
 2) dictator ban @username    or    dictator unban @username
-3) - (automatically)
+3) automatically
 4) dictator stats
 5) dictator leave
 
