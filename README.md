@@ -1,25 +1,27 @@
 # dictator_bot
 
-# !КОД ЛЕЖИТ В ВЕТКЕ MASTER #
+## you can see the code in master branch ##
 
-Телеграм бот, предназначенный для использования в чате, который умеет
-1) Делать пользователя админом
-2) Блокировать (на 1 минуту) и разблокировать пользователя
-3) Публиковать статистику по чату (сколько в чате пользователей и сколько админов)
-4) Покидать чат
+Telegram bot, dedicated to control communication in telegram chats. It can
+1) Make user an admin
+2) Block and unblock users
+3) Ask new chat members a welcome question
+4) Publish chat statistics (number of users, admins etc)
+5) Leave the chat
 
-Также при входе в чат новых пользователей, он задает им приветственный вопрос.
 
-Чтобы выполнить команду, нужно написать в чат
-dictator имя_комманды [аргументы]
 
-Для каждой из 4 комманд выше:
+To execute the command, use such a notation:
+dictator command_name [args]
+
+Examples for the commands listed above:
 1) dictator make_admin @username
-2) dictator ban @username    или dictator unban @username
-3) dictator stats
-4) dictator leave
+2) dictator ban @username    or    dictator unban @username
+3) - (automatically)
+4) dictator stats
+5) dictator leave
 
-Чтобы начать пользоваться ботам пользователю нужно прожать команду /start_dict_bot
-Чтобы получить информацию о работе бота нужно нажать /help
+To start usage press /start_dict_bot
+For additional info about the bot press /help
 
-database.txt - пустой файл, но в него будут добаляться ники и id-шники пользователей по мере того, как они будут нажимать /start_dict_bot
+database.txt - empty file, but new users and their ids will be added during bot work
